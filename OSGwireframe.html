@@ -1,0 +1,35 @@
+<html>
+<header>
+	<link rel="stylesheet" type="text/css" href="osgstyle.css" />
+	
+</header>
+<body>
+	<h2>Welcome to the Open Science Grid Web Interface</h2>
+	<div id="login_bar">
+		Username: <input type="text" name="username" /> 
+		Password: <input type="text" name="password" /> 
+		<input type="Submit" value="Login" />
+		<a href="">Register</a>
+	</div>
+	<div id="navigation">
+		<ul>
+			<li><a id="tab1_nav" onclick="document.getElementById('tab1').style.display = 'block'; document.getElementById('tab2').style.display = 'none';">Submit Job</a></li>
+			<li><a id="tab2_nav" onclick="document.getElementById('tab2').style.display = 'block'; document.getElementById('tab1').style.display = 'none';">Job Status</a></li>
+		</ul>
+	</div>
+	<div id="tabs">
+		<div class="tab" id="tab1">
+			Upload a file: <input type="text" name="file" />
+			<button name="upload_file" />Browse</button>
+			<input type="Submit" value="Upload"/>
+		</div>
+		<div class="tab" id="tab2">
+			<p>Current jobs processing: 3<br/>
+			Job 1 Status: <a href="">Finished</a><br/>
+			Job 2 Status: Processing<br/>
+			Job 3 Status: Submitted<br/>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

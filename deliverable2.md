@@ -21,16 +21,18 @@ We extended the walking skeleton to work with User objects. The app is now able 
 # User Stories Completed
 Code available at https://github.com/CS-1530-Open-Science-1
 
+As a user
+
+I want a simple interface to upload MRI image files so that I don’t need to learn anything new to use OSG
+
 As the customer
 
-I want an account system with basic info (including email and phone number)
-
-so that I can only allow users with certain credentials to use OSG
+I want an account system with basic info (including email and phone number) so that I can only allow users with certain credentials to use OSG
 
 
 # Why we chose those User Stories
 
-Our main goal of this sprint was to extend our walking skeleton and build up the backend and frontend to a point where we could easily add features to them. As outlined under our accomplishments, the backend can now work with JSONs. The only user story we were able to implement after building up the core of the application was the user account system. However, because of our efforts in this sprint, features will be added much quicker in future sprints. Therefore, we chose to build a structure that can be expanded on easily by us as well as the customer in the future. We also started to document the API we are building. These decisions implement kaizen directly into the project's structure.
+Our main goal of this sprint was to extend our walking skeleton and build up the backend and frontend to a point where we could easily add features to them. As outlined under our accomplishments, the backend can now work with JSONs. The only user story we were able to implement after building up the core of the application was the user account system. However, because of our efforts in this sprint, features will be added much quicker in future sprints. Therefore, we chose to build a structure that can be expanded on easily by us as well as the customer in the future. We also mocked up a rough wireframe of the user interface in order to get feedback from the customer. Additionally, we started to document the API we are building. These decisions implement kaizen directly into the project's structure.
 
 # Defects found by testing
 

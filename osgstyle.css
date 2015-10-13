@@ -1,0 +1,53 @@
+h2
+{
+	text-align: center;
+}
+
+#login_bar
+{
+	font-size: 90%;
+	text-align: right;
+	padding: 7px;
+	background-color: #dde0ff;
+}
+
+#login_bar > input[type="text"]
+{
+	width: 100px;
+}
+
+#navigation
+{
+	background-color: #bff1bf;
+	float: left;
+	height: 100%;
+	padding: 10px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	padding-bottom: 10px;
+}
+
+.tab
+{
+	
+	padding: 20px;
+	text-align: center;
+	display: none;
+}
+
+#tab1
+{
+	display: block;
+}
+
+a
+{
+	color: #0000EE;
+}
